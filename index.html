@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jogo da Velha | Menu</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <script defer src="./js/script.js"></script>
+</head>
+
+<body>
+  <section class="login__header">
+    <h1>Jogo da <p>Velha</p></h1>
+  </section>
+
+  <section class="corpo">
+    <section id="play">
+      <button id="pp" onclick="modoJogoP(); select1()">Player X Player</button> 
+      <button id="pc" onclick="modoJogoC(); select2()">Player X CPU</button>
+      <br/>
+    </section>
+    
+    <section id="part">
+      <button id="pu" onclick="modoJogoU(); select3()">Partida Única</button>
+      <button id="md" onclick="modoJogoT(); select4()">Melhor de 3</button>
+      <br/>
+    </section>
+    
+
+    <form class="login-form">
+
+      <input type="text" placeholder="Player - 1" class="login__input" maxlength="10">
+      <input type="text" placeholder="Player - 2" class="login__input2" minlength="5" maxlength="10" required>
+      <button type="submit" class="login__button" disabled>Play</button>
+
+    </form>
+  </section>
+  
+</body>
+
+</html>

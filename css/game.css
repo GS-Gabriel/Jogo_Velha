@@ -1,0 +1,84 @@
+* { /* CCS reset */
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+body {
+    background-image: url(../img/valorant.jpg);
+    background-size: 100%;
+    color: #fff;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#header {
+    padding: 20px;
+    display: inline-flex;
+    background-color: rgba( 0, 0, 0, 0.2);;
+}
+p {
+    margin: 4px 10px 0px 10px;
+}
+span {
+    margin: 4px 10px 0px 10px;
+}
+table {
+    padding: 10px;
+    border: none;
+}
+#t1 {
+    border: none;
+}
+#t2 {
+    border-top: none;
+}
+#t3 {
+    border: none;
+}
+#t4 {
+    border-left: none;
+}
+#t5 {
+    border: none;
+}
+#t6 {
+    border-right: none;
+}
+#t7 {
+    border: none;
+}
+#t8 {
+    border-bottom: none;
+}
+#t9 {
+    border: none;
+}
+button {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 8px;
+    background-color: #fff;
+    padding: 4px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: rgb(228, 138, 138);
+}
+button:disabled {
+    display: none;
+}
+a {
+    color: #000;
+}
+h2 {
+    padding: 5px;
+}
+section {
+    padding: 5px;
+}
+img {
+    width: 150px;
+    height: 150px;
+}

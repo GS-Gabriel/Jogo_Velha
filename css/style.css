@@ -1,0 +1,72 @@
+* { /* CCS reset */
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+body {
+    background-image: url(../img/valorant.jpg);
+    background-size: 100%;
+}
+.login__header{
+    background-color: rgba( 0, 0, 0, 0.1);
+    color: #fff;
+    padding: 20px;
+    font-size: 25pt;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.corpo {
+    background-color: rgba( 0, 0, 0, 0.1);
+    color: #fff;
+    padding: 5px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 48vh;
+}
+#play {
+    padding: 15px;
+}
+#part {
+    padding: 15px;
+}
+button {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 8px;
+    background-color: #fff;
+    padding: 4px;
+    cursor: pointer;
+}
+input:disabled {
+    display: none;
+}
+button:disabled {
+    cursor: auto;
+    background-color: rgb(228, 138, 138);
+}
+#pp {
+    border-bottom: none;
+}
+#pc {
+    border-bottom: 3px solid  rgb(233, 75, 75);
+} 
+#pu {
+    border-bottom: 3px solid  rgb(233, 75, 75);
+} 
+#md {
+    border-bottom: none;
+}
+.login__button {
+    color: #fff;
+    background-color: rgb(233, 75, 75);
+}
+h1 p {
+    text-decoration: line-through;
+    display: inline;
+}

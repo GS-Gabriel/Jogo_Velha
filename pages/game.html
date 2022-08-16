@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Velha | Valorant</title>
+    <link rel="stylesheet" href="../css/game.css">
+    <script defer src="../js/game.js"></script>
+</head>
+<body>
+    <section id="header">
+        <h3 id="p1"></h3><p>X</p><h3 id="p2"></h3><span>Tempo: <span class="timer">00</span></span>
+    </section>
+    
+    <table id="game" whith="200" border="1" cellspacing="0" cellpadding="0">
+        <tr>
+            <td id="t1"><img src="../img/transp.png" alt="fundo_tabela" id="c1" onclick="return checkjogo(this.id)"></td>
+            <td id="t2"><img src="../img/transp.png" alt="fundo_tabela" id="c2" onclick="return checkjogo(this.id)"></td>
+            <td id="t3"><img src="../img/transp.png" alt="fundo_tabela" id="c3" onclick="return checkjogo(this.id)"></td>
+        </tr>
+        <tr>
+            <td id="t4"><img src="../img/transp.png" alt="fundo_tabela" id="c4" onclick="return checkjogo(this.id)"></td>
+            <td id="t5"><img src="../img/transp.png" alt="fundo_tabela" id="c5" onclick="return checkjogo(this.id)"></td>
+            <td id="t6"><img src="../img/transp.png" alt="fundo_tabela" id="c6" onclick="return checkjogo(this.id)"></td>
+        </tr>
+        <tr>
+            <td id="t7"><img src="../img/transp.png" alt="fundo_tabela" id="c7" onclick="return checkjogo(this.id)"></td>
+            <td id="t8"><img src="../img/transp.png" alt="fundo_tabela" id="c8" onclick="return checkjogo(this.id)"></td>
+            <td id="t9"><img src="../img/transp.png" alt="fundo_tabela" id="c9" onclick="return checkjogo(this.id)"></td>
+        </tr>
+    </table>
+
+        <h2 id="h2">O jogo está em andamento...</h2>
+    <section>
+        <button id="pt" name="pt" onclick="location.reload()" disabled>Próxima Partida</button>
+        <button><a href="../index.html">Voltar ao Menu</a></button>
+    </section>
+    
+</body>
+</html>

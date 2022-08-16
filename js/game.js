@@ -4,6 +4,7 @@ var playerX = player
 var playerO = "astra"
 var numJog = 0
 var finalizacao  = false
+var vencedor
 const Player1 = localStorage.getItem('player1')
 const Player2 = localStorage.getItem('player2')
 const timer = document.querySelector('.timer')
@@ -59,7 +60,13 @@ function checkjogo(id) {
                     localStorage.setItem('partida', partida)
             }
             
-            document.getElementById('h2').innerHTML = "Fim de jogo " + player + " venceu a partida!"
+            if (player == "sage") {
+                vencedor = localStorage.getItem('player1')
+            } else {
+                vencedor = localStorage.getItem('player2')
+            }
+
+            document.getElementById('h2').innerHTML = "Fim de jogo " + vencedor + " venceu a partida!"
             return false
         }
         if (numJog >= 9) {

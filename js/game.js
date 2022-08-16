@@ -1,7 +1,7 @@
 // ----------------- Atribuição ----------------------
-var player = "reyna"
+var player = "sage"
 var playerX = player
-var playerO = "cypher"
+var playerO = "kayo"
 var numJog = 0
 var finalizacao  = false
 const Player1 = localStorage.getItem('player1')
@@ -9,7 +9,7 @@ const Player2 = localStorage.getItem('player2')
 const timer = document.querySelector('.timer')
 
 if (Player2 != "CPU") {
-    playerO = "sage"
+    playerO = "sova"
 }
 
 window.onload = () => {
@@ -83,7 +83,7 @@ function checkjogo(id) {
             player = playerX
         }
     }
-    if (cpu == "true" && player == "cypher") {
+    if (cpu == "true" && player == "kayo") {
         setTimeout(() => {checkjogo(jogoDoPc())}, 500)
     }
     function jogoDoPc() {

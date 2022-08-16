@@ -1,5 +1,5 @@
 // ----------------- Atribuição ----------------------
-var player = "raze"
+var player = "reyna"
 var playerX = player
 var playerO = "cypher"
 var numJog = 0
@@ -9,7 +9,7 @@ const Player2 = localStorage.getItem('player2')
 const timer = document.querySelector('.timer')
 
 if (Player2 != "CPU") {
-    playerO = "jett"
+    playerO = "sage"
 }
 
 window.onload = () => {

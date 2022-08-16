@@ -70,3 +70,6 @@ h1 p {
     text-decoration: line-through;
     display: inline;
 }
+input {
+    padding: 3px;
+}
